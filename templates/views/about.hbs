@@ -8,11 +8,15 @@
     <title>About page</title>
 </head>
 <body>
-    {{> header }}
-    <ul>
-        {{#each items}}
-            <li>{{this}}</li>
-        {{/each}}
-    </ul>
+    <div class="main-content">
+        {{> header }}
+        <ul>
+            {{#each items}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+
+    {{> footer }}
 </body>
 </html>
